@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>Day24</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Day24a.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Util\Util.fsproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Rationals" Version="2.3.0" />
+    </ItemGroup>
+
+</Project>
